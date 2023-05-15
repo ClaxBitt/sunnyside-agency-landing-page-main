@@ -1,0 +1,32 @@
+@use 'settings';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: settings.$fontSize;
+  font-family: settings.$font-paragraph;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: settings.$font-heading;
+}
+
+p {
+  line-height: 1.7;
+}

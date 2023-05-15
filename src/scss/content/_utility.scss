@@ -1,0 +1,9 @@
+@use "../base/settings";
+
+.d-none {
+  display: none;
+}
+
+.font-nav {
+  font-family: settings.$font-paragraph;
+}

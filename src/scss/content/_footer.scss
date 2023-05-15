@@ -1,0 +1,45 @@
+@use '../base/settings';
+
+footer {
+  padding: 60px 30px 80px 30px;
+  background-color: settings.$pale-cyan;
+  text-align: center;
+
+  & .footer__logo {
+    margin-bottom: 30px;
+  }
+
+  & .footer__logo path {
+    fill: settings.$selected-cyan;
+  }
+
+  & .footer__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 70px;
+
+    & a {
+      color: settings.$dark-moderate-cyan;
+      text-decoration: none;
+    }
+  }
+
+  & .footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+.attribution {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+
+  background-color: #FFF;
+  width: 100%;
+}

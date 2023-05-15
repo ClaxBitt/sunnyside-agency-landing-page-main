@@ -1,0 +1,5 @@
+@use "settings";
+
+@mixin sublineColor($color) {
+  background-color: $color;
+}
